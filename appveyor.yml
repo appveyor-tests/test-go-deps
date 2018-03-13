@@ -1,7 +1,7 @@
 test_script:
 - go version
 - go env
-- set GOPATH=%APPVEYOR_BUILD_FOLDER%\gopath
+- set GOPATH=%APPVEYOR_BUILD_FOLDER%
 - set PATH=%GOPATH%\bin;%PATH%
 - go get -u github.com/golang/lint/golint
 - go get github.com/sparrc/gdm
