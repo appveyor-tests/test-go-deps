@@ -1,7 +1,8 @@
-image: Previous Visual Studio 2015
+#image: Previous Visual Studio 2015
 
 install:
-- ps: .\install-git.ps1
+#- ps: .\install-git.ps1
+- wusa /uinstall /kb:4072650
 
 test_script:
 - go version
