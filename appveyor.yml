@@ -1,0 +1,6 @@
+test_script:
+- go get -u github.com/golang/lint/golint
+- go get github.com/sparrc/gdm
+- gdm restore
+  
+build: off
