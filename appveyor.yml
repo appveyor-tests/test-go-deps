@@ -11,6 +11,6 @@ test_script:
 - set PATH=%GOPATH%\bin;%PATH%
 - go get -u github.com/golang/lint/golint
 - go get github.com/sparrc/gdm
-- gdm restore -parallel=false
+- gdm restore
   
 build: off
